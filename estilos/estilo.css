@@ -1,63 +1,9 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 
 *{
-    margin: 0px;
-    padding: 0px;
+ margin: 0px;
+ padding: 0px;
 }
-
-
-html, body{
-    height: 100vh;
-    width: 100vw;
-    background-color: aqua;
-}
-
 body{
-    background: url(/imagens/space.jpg)no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-main{
-    height: 100vh;
-    padding: relative;
-    
-}
-
-section#telefone{
-   
-    height: 600px;
-    width: 310px;
-    top: 50%;
-    left: 50%;
-    background:  url(/imagens/frame-iphone.png)no-repeat;
-    transform: translate(-50%, -50%);
-    position: absolute;
-}
-
-
-iframe#tela{
-    position: relative;
-    top: 80px;
-    left: 32px;    /*Pt. da tela o dragã no meio */
-    width: 250px;
-    height: 471px;
-}
-
-section#mangas img{
-    width: 50px;
-    margin: 10px;           /*Pt.R= borda em volta da imagem*/
-    border-radius: 50%;
-    box-shadow: 2px 4px 9px yellow ;
-    box-sizing: border-box;
-}
-
-section#mangas {
-    text-align: left; /*PT. R= por deixa eles alinhados na lado*/
-}
-
-section#mangas img:hover{
-    border: 2px solid orangered;  /* Parte responsavel pela borda laranja nas imagens*/
-    transform: translate(-6px, -6px); /*Pt. da uma levantada quando passar por cima*/
-    box-shadow: 5px 8px 9px yellow;  /*sombra quando passa por cima*/
+    background-color: ;
 }
